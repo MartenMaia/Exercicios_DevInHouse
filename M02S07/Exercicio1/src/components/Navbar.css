@@ -1,0 +1,14 @@
+.Navbar {
+    background-color: #EAEAEA;
+    height: 98px;
+    color: #0171AF;
+}
+
+h1{
+    display: flex;
+    position: absolute;
+    left: 20.96%;
+    right: 6.29%;
+    top: 6%;
+    bottom: 6%; 
+}

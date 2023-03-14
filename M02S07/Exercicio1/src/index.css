@@ -1,0 +1,16 @@
+html, body, main, div, h1{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  box-sizing: 0;
+}
+
+:root{
+  font-family: sans-serif;
+  background-color: #d7dbdd;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+}
