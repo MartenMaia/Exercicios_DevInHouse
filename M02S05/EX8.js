@@ -23,5 +23,3 @@ const requisicoes = [1,2,3,4,5,6,7,8,9,10];
 for (const num of requisicoes) {
     fakeAPIFilmes(num).then(() => console.log("Resolvido Requisições",num))
 }
-
-//VERIFICAR SE FALTA MAIS ALGO

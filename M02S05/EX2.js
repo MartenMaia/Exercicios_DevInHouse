@@ -22,11 +22,6 @@ const carros = [
     },
 ];
 
-const marca = carros
-.filter(carro => carro.marca === "Ford")
-.map( carro => ({nome: carro.nome, marca: carro.marca}));
-console.log(marca)
-
-
-
-//FINALIZAR!!
+const ford = carros.filter(carro => carro.marca === "Ford")
+    .map( carro => ({nome: carro.nome, valor: carro.valor}));
+// teste: console.log(ford)

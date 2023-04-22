@@ -12,9 +12,7 @@ class MeuNome {
   
       impressora();
     }
-  }
+}
   
-  const meuNome = new MeuNome('Luis Carlos', 'Elias');
-  meuNome.imprime();
-
-//VERIFICAR SE FOI FINALIZADO!
+const meuNome = new MeuNome('Luis Carlos', 'Elias');
+meuNome.imprime();
